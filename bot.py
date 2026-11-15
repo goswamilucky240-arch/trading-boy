@@ -5,7 +5,7 @@ import yfinance as yf
 print("Bot script shuru ho gayi hai")
 
 # ================= CONFIGURATION =================
-BOT_TOKEN = "9209112895:AAewx154iQyKbwj15HEL1hw-J5znd78Pe_U"
+BOT_TOKEN = 9209112895:AAG9MVr-S7KZm7hFHI0PQOaVlgG8XDA0f4
 CHAT_ID = "5781972115"
 
 ASSETS = {
