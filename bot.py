@@ -1,3 +1,4 @@
+print("Bot script shuru ho gayi hai") 
 from datetime import datetime
 import requests
 import yfinance as yf
@@ -18,6 +19,7 @@ TARGET_PCT = 0.012  # 1.2%
 
 
 def send_telegram_message(message):
+    print("Telegram message bhejne ki koshish ki ja rahi hai")
   url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
   payload = {"chat_id": CHAT_ID, "text": message, "parse_mode": "Markdown"}
   try:
